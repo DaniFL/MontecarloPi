@@ -1,5 +1,3 @@
-![copyright1.jpg](copyright1.jpg)
-
 Copyright [2021] [Daniel Fernández López copyright]
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -11,6 +9,13 @@ You may obtain a copy of the License at
     See the License for the specific language governing permissions and
     limitations under the License.
 
+# Creador: 
+
+* Daniel Fernández López 
 # Objetivo: 
 
-    En esta 
+Este programa ha sido diseñado para poder realzar una aproximación al número pi 
+# Funcionalidad: 
+
+* Para inicializar el programa: 
+"java -cp bin aplicacion.Principal"
