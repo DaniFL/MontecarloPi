@@ -25,4 +25,4 @@ Además, de esta manera suponemos que ambas figuras se encontrarán representada
 
 # Funcionalidad: 
 
-* Para inicializar el programa: "java -cp bin aplicacion.Principal"
+* Para inicializar el programa: "java -jar ap-Matematicas.jar 100000"
