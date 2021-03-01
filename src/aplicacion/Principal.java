@@ -1,5 +1,5 @@
 /*
-Copyright [2021] [Daniel Fernández López copyright]
+Copyright [2021] [Daniel Fernández López]
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -15,7 +15,8 @@ import mates.Matematicas;
 
 public class Principal {
     public static void main(String[] args) {
-            System.out.print("El número PI es: " + Matematicas.generarNumeroPi(Integer.parseInt(args[0])));
+            long numeroIntentos = Long.parseLong(args[0]);
+            System.out.print("El número PI es: " + Matematicas.generarNumeroPi(numeroIntentos));
         
     }
 }

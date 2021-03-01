@@ -1,5 +1,5 @@
 /*
-Copyright [2021] [Daniel Fernández López copyright]
+Copyright [2021] [Daniel Fernández López]
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -14,7 +14,6 @@ package mates;
 public class Matematicas {
 
     public static double generarNumeroPi(long numeroIntentos){ 
-    numeroIntentos = 0; 
     double aciertos = 0.0; 
     double areaCuadrado = 4.0; 
 
