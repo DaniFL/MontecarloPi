@@ -1,3 +1,5 @@
+![Copyright.png](Copyright.png)
+
 Copyright [2021] [Daniel Fernández López]
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -18,11 +20,17 @@ limitations under the License.
 
 Este programa ha sido diseñado para poder realizar una aproximación al número Pi a partir del método de Monte Carlo.
 
-El método de Monte Carlo consiste en inscribir una circunferencia dentro un cuadrado, (siendo el diámetro de la circunferencia igual que uno de los lados del cuadrado) y mediante la generación de puntos aleatorios sobre la superficie dibujada se establece una relación entre los puntos interiores (aciertos) y puntos totales; con la que se podrá llevar a cabo la aproximción. 
+El método de Monte Carlo consiste en inscribir una circunferencia dentro un cuadrado, (siendo el diámetro de la circunferencia igual que uno de los lados del cuadrado) y mediante la generación de puntos aleatorios sobre la superficie dibujada se establece una relación entre los puntos interiores (aciertos) y puntos totales; con la que se podrá llevar a cabo la aproximción al número Pi. 
 
-Además, de esta manera suponemos que ambas figuras se encontrarán representadas en los ejes de coordenadas (X) e (Y), situando el centro del círculo en el punto (0,0) y los cuatro vértices del cuadrado en los puntos (-1,-1), (-1,1), (1,-1), (1,1).
+Además, suponemos que ambas figuras se encontrarán representadas en los ejes de coordenadas (X) e (Y), situando el centro de la circunferencia en el punto (0,0) y los cuatro vértices del cuadrado en los puntos (-1,-1), (-1,1), (1,-1), (1,1). Por lo tanto, el valor del radio será igual a 1 y el valor del área del cuadrado igual a 4. 
 
+* Área Circulo = Pi * R^2
+* Área Cuadrado = L^2
 
+En el programa se establecen unos valores iniciales de aciertos e intentos que se van incrementando a partir de los bucles "for" e "if" a medida que se generan puntos aleatorios sobre la superficie. Constituyendo finalmente, la aproximación al número Pi como la división entre el área del cuadrado y el radio de la circunferencia al cuadrado.
 # Funcionalidad: 
 
-* Para inicializar el programa: "java -jar ap-Matematicas.jar 100000"
+* Para inicializar el programa deberá introducir en el terminal el comando (donde el número 100000 determina cuantos valores desea para realizar la aproximación): "java -jar ap-Matematicas.jar 100000" 
+
+* Una vez ejecutado el comando se imprimirá por pantalla el resultado de la aproximación.  
+

@@ -11,11 +11,16 @@ You may obtain a copy of the License at
     limitations under the License.
 */
 package aplicacion;
+//Importa las variables de la clase Matemáticas
 import mates.Matematicas;
 
 public class Principal {
+    
+    //Método Main sobre el que se inicializa la ejecución del programa   
     public static void main(String[] args) {
+            //Esta variable almacena el valor de intentos realizados
             long numeroIntentos = Long.parseLong(args[0]);
+            //Imprime por pantalla el resultado del programa 
             System.out.print("El número PI es: " + Matematicas.generarNumeroPi(numeroIntentos));
         
     }

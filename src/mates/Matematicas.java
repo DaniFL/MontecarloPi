@@ -12,22 +12,30 @@ You may obtain a copy of the License at
 */
 package mates;
 public class Matematicas {
-
+    //Método constructor de programa que devuleve la aproximación al número Pi 
     public static double generarNumeroPi(long numeroIntentos){ 
+    //Esta variable almacena los puntos que caen aleatoriamente en la circunferencia
     double aciertos = 0.0; 
+    //Esta variable delimita la superficie sobre la que se lanzarán aleatoriamente los puntos
     double areaCuadrado = 4.0; 
-
+        //Bucle (estructura lógica) que permite realizar una acción de manera reiterada siempre y cuando la condición expresada se cumpla
         for(int i=1; i <= numeroIntentos ; i++){
+            //Creación de dos números aleatorios (x) e (y) comprendidos entre (-1) y (1)
             double x = Math.random()*2-1; 
             double y = Math.random()*2-1;
+            //Bucle que realiza una acción si se cumple la condición establecida, en este caso se sumará un intento y un acierto 
             if ((x*x) + (y*y) <= 1){ 
                 numeroIntentos++; 
                 aciertos++; 
             }
             } 
+    //Esta variable almacena el valor del radio de la circunferencia
     double radio = 1.0; 
+    //Esta variable define el cálculo del area de la circunferencia 
     double areaCirculo = areaCuadrado * (aciertos/numeroIntentos); 
+    //Esta variable define el cálculo de la aproximación al número Pi 
     double aproximacionPi = areaCirculo/Math.pow(radio, 2);
+    //Devuelve aproximación a Pi
     return aproximacionPi; 
     }
 }
