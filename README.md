@@ -1,3 +1,4 @@
+![copyright1.jpg](copyright1.jpg)
 
 Copyright [2021] [Daniel Fernández López copyright]
 Licensed under the Apache License, Version 2.0 (the "License");
