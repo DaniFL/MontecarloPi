@@ -6,4 +6,4 @@ ejecutar:compilar
 limpiar:
 	rm -rf bin
 jar:compilar
-	jar cvfm ap-personas.jar Manifest.txt -C bin . 
+	jar cvfm ap-Matematicas.jar Manifest.txt -C bin . 
