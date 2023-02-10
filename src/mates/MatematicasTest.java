@@ -1,12 +1,23 @@
 package mates;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.junit.jupiter.MockitoExtension;
+
 
 @ExtendWith(MockitoExtension.class)
 class MatematicasTest {
 
     @InjectMocks
     private Matematicas underTest;
+
+    @BeforeEach
+    void setUp() {
+    }
+
+
 
     @org.junit.jupiter.api.Test
     void generarNumeroPi() {
@@ -16,6 +27,8 @@ class MatematicasTest {
     }
 
     private void assertTrue(boolean b) {
+
+
     }
 
     @Nested
@@ -24,6 +37,9 @@ class MatematicasTest {
 
         @BeforeEach
         void setup() {
+            underTest = new Matematicas();
+
+
         }
     }
 }
